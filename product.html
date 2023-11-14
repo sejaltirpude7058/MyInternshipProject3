@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <!--header section-->
+
+   <section id="header">
+    <a href="#" style="background-color: #23222a"
+      ><h2 style="background: palevioletred; color:white;">Cosmetics</h2></a>
+
+    <div>
+      <ul id="navbar" style="background: palevioletred">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="product.html">Products</a></li>
+        <li><a  href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li>
+          <a href="cart.html"
+            ><i
+              style="background-color: transparent"
+              class="fas fa-shopping-cart"
+            ></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <!--Page header-->
+
+  <section id="page-head" class="about-header">
+    <h2 style="color: white; font-weight: 500;">Get Up to 60% of on Each Product</h2>
+    <h4>
+      Cart
+    </h4>
+  </section>
+
+
+    <h3
+      style="
+        /* background-color: #fffffb; */
+        color: #23222a;
+        text-align: center;
+        margin: 20px;
+        text-shadow: none;
+      "
+    >
+    categories
+    </h3>
+
+    <!--Category-->
+
+    <section id="category" class="section-p1">
+      <div class="fe-box">
+        <img src="images/hair.png" alt="" />
+        <h4>Hair</h4>
+      </div>
+
+      <div class="fe-box">
+        <img src="images/lips.png" alt="" />
+        <h4>Make up</h4>
+      </div>
+
+      <div class="fe-box">
+        <img src="images/tools.png" alt="" />
+        <h4>Applainces</h4>
+      </div>
+
+      <div class="fe-box">
+        <img src="images/skin.png" alt="" />
+        <h4>Skin</h4>
+      </div>
+
+      <div class="fe-box">
+        <img src="images/bath and body.png" alt="" />
+        <h4>Bath & body</h4>
+      </div>
+
+      
+    </section>
+
+        <!--featured products-->
+
+<section id="products" class="section-p1" >
+
+  <h2 style="background-color: rgb(217, 223, 233);">Top Brands Cosmetic</h2>
+  <p style="background-color: rgb(217, 223, 233);">Some of Our Best Collections</p>
+   <div class="pro-container">
+
+      <div class="pro" onclick="window.location.href='sproduct.html'; ">
+          <img id="img" src="images/c2.jpg" alt="chairimage">
+          <div class="des">
+            <h3 id="title">Compact Powder</h3>
+              <span id="description">ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4>$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+     
+
+      <div class="pro" onclick="window.location.href='sproduct1.html'; ">
+          <img  id="img" src="images/f2.jpg" alt="chairimage">
+          <div class="des">
+            <h3 id="title">Foundation</h3>
+              <span id="description">ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4>$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro" onclick="window.location.href='sproduct2.html'; ">
+          <img id="img" src="images/eye2.jpg" alt="chairimage">
+          <div class="des">
+            <h3 id="title">Kajal</h3>
+              <span id="description">ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro" onclick="window.location.href='sproduct3.html'; ">
+          <img id="img" src="images/e2.jpg" alt="chairimage">
+          <div class="des">
+            <h3 id="title"> Eye Shadow</h3>
+              <span id="description">ArtDesk ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro" onclick="window.location.href='sproduct4.html'; ">
+          <img  id="img" src="images/brush.webp" alt="chairimage">
+          <div class="des">
+            <h3 id="title">Makeup Brush kit</h3>
+              <span id="description" >ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/f2.jpg" alt="chairimage">
+          <div class="des">
+              <span>ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/brush2.jpg" alt="chairimage">
+          <div class="des">
+              <span>ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/serum.jpg" alt="chairimage">
+          <div class="des">
+              <span>ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/soap.webp" alt="chairimage">
+          <div class="des">
+              <span>MAMA EARTH natural soaps with different natural herbs including neem Haldi chandan rose with gooodness of kesar   Pertfect for Skin with natural herbs leaves the skin glowing and moisturizing  With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/sunscreen.webp" alt="chairimage">
+          <div class="des">
+              <span>TataHance Oyster Gray Fish Tail Accent Arm Chair, With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+ 
+ 
+   <div class="pro-container">
+
+      <div class="pro">
+          <img src="images/curl.webp" alt="chairimage">
+          <div class="des">
+              <span>TataHance Oyster Gray Fish Tail Accent Arm Chair,Home Decoration Pertfect for Living Room , with 50% OFF</span>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4>$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/shimmer.jpg" alt="chairimage">
+          <div class="des">
+              <span>TataHance Oyster Gray Fish Tail Accent Arm Chair, Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4>$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+
+      <div class="pro">
+          <img src="images/tint.jpg" alt="chairimage">
+          <div class="des">
+              <span>TataHance Oyster Gray Fish Tail Accent Arm Chair, Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OF</span>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4>$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/primer.jpg" alt="chairimage">
+          <div class="des">
+              <span>TataHance Oyster Gray Fish Tail Accent Arm Chair, Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+      <div class="pro">
+          <img src="images/mois.jpg" alt="chairimage">
+          <div class="des">
+              <span>ArtDesk Metal Wall Art Iron Wall Hanging Home Decoration Pertfect for Living Room/Hotel/Restaurant,(Size: 54X22 inch) With 59% OFF</span>
+              <div class="star" style="background-color: transparent;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 style="background-color: transparent;">$45</h4>
+          </div>
+          <button class="normal" onclick="addtocart()">Add To Cart</button>
+      </div>
+
+
+
+  </div>
+ 
+</section>
+
+<section id="pagination" class="section-p1">
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#"><i  class="fas fa-long-arrow-alt-right"></i></a>
+
+</section>
+
+    <!--NewsLetter-->
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get Email updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong> 562 Wellington Road, Street 32, San
+          Francisco
+        </p>
+        <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="images/app.jpg" alt="" />
+          <img src="images/play .jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="images/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>@ 2023, SejalTirpude - Product page</p>
+      </div>
+    </footer>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+  </body>
+</html>
